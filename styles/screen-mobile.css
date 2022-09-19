@@ -1,0 +1,117 @@
+header {
+    background-color: var(--primary-color-dark);
+    padding: 0 10px;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+
+.container-principal-button p {
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.container-principal p strong {
+    color: var(--highlighted-text)
+}
+
+.container-principal-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.default-button {
+    text-decoration: none;
+    color: var(--normal-color-text);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: var(--buttons-color);
+    box-shadow: 0px 0px 10px var(--buttons-shadow-color);
+    border-radius: 5px;
+}
+
+.section01 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color-dark);
+}
+
+.section01 h2 {
+    margin-bottom: 50px;
+}
+
+.container-child-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.child-section {
+    width: 230px;
+    height: 240px;
+    padding: 30px 20px;
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--primary-color-dark);
+    border: solid 2px var(--defafault-border);
+    margin: 20px auto; 
+}
+
+.header-div-child-section {
+    margin-bottom: 30px;
+}
+
+.body-child-section span{
+    font-size: 1.5em;
+}
+
+
+.child-section .icon {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    width: calc(90vw / 3); 
+    height: 200px;
+}
+
+footer .col li {
+    list-style: none;
+}
+
+/* *{
+    border: solid 1px white;
+} */

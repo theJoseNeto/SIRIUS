@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-light: #0B1733;
+    --primary-color-dark: #07122E;
+    --normal-color-text: #ffff;
+    --highlighted-text: #FE9100;
+    --buttons-color: #3672FE;
+    --buttons-shadow-color: #3672FE;
+    --defafault-border: #3C465B;
+}
+
+
+body {
+    background-color: var(--primary-color-light);
+    color: var(--normal-color-text);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Dhurjati', sans-serif;
+}
